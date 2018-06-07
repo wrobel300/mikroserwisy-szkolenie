@@ -1,0 +1,7 @@
+{
+  "timestamp": "2018-06-06T13:14:02.563+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Type definition error: [simple type, class hello.Person]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `hello.Person` (no Creators, like default construct, exist): no String-argument constructor/factory method to deserialize from String value ('firstName')\n at [Source: (org.apache.catalina.connector.CoyoteInputStream); line: 1, column: 1]",
+  "path": "/people"
+}

@@ -1,0 +1,9 @@
+
+example:
+  value:
+    foo: default foo
+    bar: default bar
+    x:   999
+spring:
+  profiles:
+    active: prod

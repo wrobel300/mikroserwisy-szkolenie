@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8761/eureka/, http://eureka-secondary:8762/eureka/
+----
+spring:
+  profiles: lazy
+activities: to grab a bear, to eat a cookies, to take na nap
+
+----
+spring:
+  profiles: crazy
+activities: to run a marthon, to go hiking

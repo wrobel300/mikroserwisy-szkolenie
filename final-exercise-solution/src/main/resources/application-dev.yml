@@ -1,0 +1,4 @@
+example:
+  value:
+    foo: An example foo value - dev profile
+    bar: An example bar value - dev profile

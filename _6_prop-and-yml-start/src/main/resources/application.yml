@@ -1,0 +1,4 @@
+helloController:
+  hello: hello
+  foo: foo
+  msg: .yml file

@@ -1,0 +1,7 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8761/eureka/, http://eureka-secondary:8762/eureka/
+server:
+  port: 8000
+decisions: It's a good idea, It's a bad day

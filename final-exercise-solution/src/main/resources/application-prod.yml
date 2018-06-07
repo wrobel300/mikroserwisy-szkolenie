@@ -1,0 +1,4 @@
+example:
+  value:
+    foo: An example foo value - prod profile
+    bar: An example bar value - prod profile

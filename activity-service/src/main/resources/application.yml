@@ -1,0 +1,7 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8761/eureka/, http://eureka-secondary:8762/eureka/
+server:
+  port: 8010
+activities: Running, Swimming, Programming

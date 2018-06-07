@@ -1,0 +1,204 @@
+GET http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-06-06T031830.200.json
+
+###
+
+POST http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"firstName" : "Frodo3",   "lastName" : "Baggins"}
+
+<> 2018-06-06T031824.201.json
+
+###
+
+GET http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-06-06T031719.200.json
+
+###
+
+GET http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+<> 2018-06-06T031711.200.json
+
+###
+
+GET http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+"firstName" : "Frodo",   "lastName" : "Baggins"
+
+<> 2018-06-06T031645.200.json
+
+###
+
+POST http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"firstName" : "Frodo2",   "lastName" : "Baggins"}
+
+<> 2018-06-06T031630.201.json
+
+###
+
+POST http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"firstName" : "Frodo",   "lastName" : "Baggins"}
+
+<> 2018-06-06T031525.201.json
+
+###
+
+POST http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+"firstName" : "Frodo",   "lastName" : "Baggins"
+
+<> 2018-06-06T031443.400.json
+
+###
+
+POST http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+"firstName" : "Frodo",   "lastName" : "Baggins"
+
+<> 2018-06-06T031402.500.json
+
+###
+
+POST http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+"firstName" : "Frodo",   "lastName" : "Baggins"
+
+<> 2018-06-06T031315.400.json
+
+###
+
+POST http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+
+"firstName" : "Frodo",   "lastName" : "Baggins"
+
+<> 2018-06-06T031228.400.json
+
+###
+
+POST http://localhost:8080/people?=&firstName=aa&lastName=bbb
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T031138.400.json
+
+###
+
+POST http://localhost:8080/people/save?=&firstName=aa&lastName=bbb
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T031049.404.json
+
+###
+
+POST http://localhost:8080/people/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T031017.404.json
+
+###
+
+POST http://localhost:8080/people/save
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T030830.404.json
+
+###
+
+POST http://"Content-Type:application/json"%20-d%20"
+HTTP/1.1 201 Created:
+Server: Apache-Coyote/1.1
+Location: http://localhost:8080/people/1
+Content-Length: 0
+Date: Wed, 26 Feb 2014 20:26:55 GMT
+
+###
+
+POST http://-H%20"Content-Type:application/json"%20-d%20"
+HTTP/1.1 201 Created:
+Server: Apache-Coyote/1.1
+Location: http://localhost:8080/people/1
+Content-Length: 0
+Date: Wed, 26 Feb 2014 20:26:55 GMT
+
+###
+
+GET http://localhost:8080/people/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T025411.200.json
+
+###
+
+GET http://localhost:8080/people/
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T025110.200.json
+
+###
+
+GET http://localhost:8080/people/people
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T025056.500.json
+
+###
+
+GET http://localhost:8080/people/people
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T025004.500.json
+
+###
+
+GET http://localhost:8080/people
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-06-06T024950.200.json
+
+###
+
