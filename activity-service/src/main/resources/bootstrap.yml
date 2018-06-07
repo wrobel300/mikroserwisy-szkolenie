@@ -1,3 +1,20 @@
+---
 spring:
+  profiles: lazy
   application:
     name: activity-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+server:
+  port: 8010
+---
+spring:
+  profiles: crazy
+  application:
+    name: activity-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+server:
+  port: 8011
