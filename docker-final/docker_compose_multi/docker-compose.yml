@@ -1,0 +1,26 @@
+version: '3'
+services:
+  config-server:
+    image: config-server-image
+    build:
+      context: .
+      dockerfile: Dockerfile-config-server
+    ports:
+      - '8888:8888'
+    volumes:
+    - config-server-tmp:/tmp
+  limit-service:
+    image: limit-service-image
+    build: 
+      context: .
+      dockerfile: Dockerfile-limit-service
+    entrypoint: /opt/LimitService.sh
+    depends_on:
+      - config-server
+    ports:
+      - '8080:8080'       
+    volumes:       
+    - limit-service-tmp:/tmp
+volumes:
+  config-server-tmp:
+  limit-service-tmp:

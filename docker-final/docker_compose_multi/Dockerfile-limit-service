@@ -1,0 +1,6 @@
+# budujemy z apline
+FROM openjdk:8-jdk-alpine
+# kopiowanie z target do obrazu
+COPY ./limit-service/target/limit-service-0.0.1-SNAPSHOT.jar /opt/limit-service.jar
+COPY ./LimitService.sh /opt/LimitService.sh
+RUN chmod 755 /opt/LimitService.sh

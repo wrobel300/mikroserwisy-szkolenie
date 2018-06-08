@@ -1,0 +1,11 @@
+version: '3'
+services:
+  boot-project:
+    image: boot-image
+    build: .
+    ports:
+      - '8080:8080'       
+    volumes:       
+    - boot-project-tmp:/tmp
+volumes:
+  boot-project-tmp:
